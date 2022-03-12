@@ -3,6 +3,7 @@
 :root
 {
     --borderC: black;
+    --backgroundB: #98C1D9;
 }
 
 img 
@@ -285,6 +286,7 @@ body
     background-color: #293241;
     color: white;
     --borderC: white;
+    --backgroundB: #3D5A80;
 }
 .loader {
     border: 16px solid #f3f3f3; /* Light grey */
@@ -299,3 +301,13 @@ body
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+#modeToggle{
+    background-color: var(--backgroundB);
+    border: none;
+    border-radius: 5px;
+    color: var(--borderC);
+    width: 250px;
+    align-self: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
