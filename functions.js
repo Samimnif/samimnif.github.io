@@ -172,6 +172,7 @@ function sendEmail() {
             "<p style=\"font-size: 14px; line-height: 190%;\"><span style=\"font-size: 18px; line-height: 34.2px;\"><strong><span style=\"line-height: 34.2px; font-family: 'trebuchet ms', geneva; font-size: 18px;\">Regards,</span></strong></span></p>" +
             "<p style=\"font-size: 14px; line-height: 190%;\"><span style=\"font-size: 16px; line-height: 30.4px; font-family: 'trebuchet ms', geneva;\">Sami Mnif. </span></p>" +
             "<p style=\"font-size: 14px; line-height: 190%;\"><span style=\"font-size: 16px; line-height: 30.4px; font-family: 'trebuchet ms', geneva;\"><span style=\"font-size: 16px; line-height: 30.4px;\"><a rel=\"noopener\" href=\"mailto:sami.mnif@carleton.ca\" target=\"_blank\">sami.mnif@carleton.ca</a></span>&nbsp;</span></p>" +
+            "<p style=\"font-size: 14px; line-height: 190%;\"><span style=\"font-size: 16px; line-height: 30.4px; font-family: 'trebuchet ms', geneva;\"><span style=\"font-size: 16px; line-height: 30.4px;\"><a rel=\"noopener\" href=\"https://samimnif.github.io/\" target=\"_blank\">samimnif.github.io</a></span>&nbsp;</span></p>" +
             "<p style=\"font-size: 14px; line-height: 190%;\">&nbsp;</p>" +
             "<p style=\"font-size: 14px; line-height: 190%;\">&nbsp;</p>" +
             "  </div>" +
@@ -229,11 +230,11 @@ function sendEmail() {
             "  <!--[if IE]></div><![endif]-->" +
             "</body>" +
             "</html>",
-        //Attachments: [
-        //{
-        //name: "profile.JPG",
-        //path: "\\assets\\profile.JPG"
-        //}]
+        Attachments: [
+        {
+        name: "Sami_Mnif.vcf",
+        path: "https://samimnif.github.io/assets/Sami_Mnif.vcf"
+        }]
     }).then(
         message => alert("Email sent! \nPlease check your s\u0332p\u0332a\u0332m\u0332 folder\nThanks!")
     );
