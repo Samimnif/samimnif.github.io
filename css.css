@@ -97,7 +97,7 @@ body
 {
     width: 59px;
     height: auto;
-    color: blue;
+    color: #0077B5;
     pointer-events: bounding-box;
 }
 .bi-linkedin :hover
