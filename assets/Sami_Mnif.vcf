@@ -2,10 +2,10 @@ BEGIN:VCARD
 VERSION:2.1
 N;LANGUAGE=en-ca:Mnif;Sami;;Mr.
 FN:Mr. Sami Mnif
-ORG:Sprott School of Business (Carleton U)
-TITLE:IT Consultant
+ORG:Carleton University
+TITLE:Software Engineering Student
 TEL;CELL;VOICE:+1 (613) 875-3648
-ADR;HOME;PREF:;;638-740 Springland Drive;Ottawa;ON;K1V 6L8;Canada
+ADR;HOME;PREF:;;740 Springland Drive;Ottawa;ON;K1V 6L8;Canada
 LABEL;HOME;PREF;ENCODING=QUOTED-PRINTABLE:638-740 Springland Drive=0D=0A=
 Ottawa  ON  K1V 6L8
 X-MS-OL-DEFAULT-POSTAL-ADDRESS:1
