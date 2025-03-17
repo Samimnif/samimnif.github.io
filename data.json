@@ -1,0 +1,16 @@
+{
+    "about": "I am a software engineer with experience in embedded systems, web development, and IoT.",
+    "socials": [
+        {"name": "GitHub", "link": "https://github.com/yourusername"},
+        {"name": "LinkedIn", "link": "https://linkedin.com/in/yourprofile"},
+        {"name": "Twitter", "link": "https://twitter.com/yourhandle"}
+    ],
+    "experiences": [
+        {"role": "Software Engineer", "company": "Tech Corp", "year": "2022 - Present"},
+        {"role": "Intern", "company": "Startup Inc.", "year": "2021 - 2022"}
+    ],
+    "projects": [
+        {"name": "Smart Greenhouse", "description": "An IoT-based monitoring system.", "link": "https://github.com/yourusername/smart-greenhouse"},
+        {"name": "Portfolio Website", "description": "A personal website to showcase my work.", "link": "https://yourwebsite.com"}
+    ]
+}
